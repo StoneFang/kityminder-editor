@@ -158,9 +158,9 @@ angular.module('kityminderEditor')
 					'move_success': '{0} 移动成功到 {1}',
 
 					'command': {
-						'appendsiblingnode': '插入同级主题',
-                        'appendparentnode': '插入上级主题',
-						'appendchildnode': '插入下级主题',
+						'appendsiblingnode': '+同级',
+                        'appendparentnode': '+上级',
+						'appendchildnode': '+下级',
 						'removenode': '删除',
 						'editnode': '编辑',
 						'arrangeup': '上移',
@@ -187,8 +187,9 @@ angular.module('kityminderEditor')
 					'redo': '重做 (Ctrl + Y)',
 
 					'tabs': {
-						'idea': '思路',
-						'appearence': '外观',
+						'idea': '编辑',
+						'appearence': '样式',
+						'label': '标签',
 						'view': '视图'
 					},
 
@@ -332,7 +333,7 @@ angular.module('kityminderEditor')
                     'insertlink': '插入链接',
                     'insertimage': '插入图片',
                     'insertnote': '插入备注',
-					'removelink': '移除已有链接',
+					'removelink': '移除链接',
 					'removeimage': '移除已有图片',
 					'removenote': '移除已有备注',
 					'resetlayout': '整理',
